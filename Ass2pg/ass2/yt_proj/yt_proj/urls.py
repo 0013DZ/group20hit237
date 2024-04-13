@@ -21,4 +21,5 @@ from yt_app import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('list/', views.list),
+    path('homepage/', views.homepage),
 ]
